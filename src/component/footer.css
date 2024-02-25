@@ -1,0 +1,62 @@
+.cont-footers {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-inline: 3rem;
+  padding-block: 3rem;
+  /* align-items: center; */
+}
+
+.cont-footers > div:first-child {
+  flex-basis: 30%;
+  /* background-color: aqua; */
+}
+.cont-footers > div:first-child h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: aliceblue;
+}
+.cont-footers > div:first-child p {
+  font-size: 1rem;
+  color: aliceblue;
+  margin-bottom: 0rem;
+}
+
+.cont-footers > div:nth-child(2) {
+  flex-basis: 30%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.cont-footers > div:nth-child(2) h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: aliceblue;
+}
+.cont-footers > div:nth-child(2) div {
+  display: flex;
+  gap: 1rem;
+}
+.icon-footer {
+  font-size: 2rem;
+  color: aliceblue;
+}
+.cont-footers > div:nth-child(3) {
+  flex-basis: 30%;
+  /* background-color: blueviolet; */
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+}
+.cont-footers > div:nth-child(3) h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: aliceblue;
+}
+.cont-footers > div:nth-child(3) p {
+  font-size: 1rem;
+  color: aliceblue;
+  margin-bottom: 0rem;
+}

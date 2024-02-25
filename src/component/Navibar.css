@@ -1,0 +1,18 @@
+.navibar-coffee {
+  background-color: rgba(202, 132, 40, 0.7);
+  padding-inline: 3rem;
+  /* position: fixed; */
+}
+.nav-text {
+  color: aliceblue;
+  /* font-size: 1.5rem;
+  font-weight: 400; */
+}
+
+.navibar-coffee .dropdown-toggle {
+  color: aliceblue;
+}
+.icon-navbar {
+  font-size: 1.5rem;
+  color: aliceblue;
+}

@@ -1,0 +1,96 @@
+.Hero-home {
+  background-image: url("../../public/assets/background_herohome.jpg");
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  /* align-items: center; */
+}
+.konten_hero h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: aliceblue;
+  margin: 0rem;
+  /* font-family: "Poppins"; */
+}
+.konten_hero h1 span {
+  color: rgb(202, 132, 40);
+
+  /* font-family: "Poppins"; */
+}
+.konten_hero p {
+  font-size: 1rem;
+  color: aliceblue;
+  width: 30rem;
+  margin-top: 0.5rem;
+}
+
+.cont-button {
+  display: flex;
+  gap: 1rem;
+}
+.cont-button > button:first-child {
+  background-color: transparent;
+  color: rgb(202, 132, 40);
+  border: 2px solid rgb(202, 132, 40);
+  padding-block: 0.3rem;
+  padding-inline: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.cont-button > button:nth-child(1):hover {
+  background-color: rgb(202, 132, 40);
+  color: aliceblue;
+  border: 2px solid rgb(202, 132, 40);
+  padding-block: 0.3rem;
+  padding-inline: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.cont-button > button:nth-child(2) {
+  background-color: rgb(202, 132, 40);
+  color: aliceblue;
+  border: 2px solid rgb(202, 132, 40);
+  padding-block: 0.3rem;
+  padding-inline: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.cont-button > button:nth-child(2):hover {
+  background-color: rgb(107, 84, 54);
+  color: aliceblue;
+  border: 2px solid rgb(107, 84, 54);
+  padding-block: 0.3rem;
+  padding-inline: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.cont1 {
+  display: flex;
+  padding-block: 10rem;
+  padding-inline: 5rem;
+  /* gap: 1rem; */
+}
+.img-cont {
+  flex-basis: 50%;
+}
+.carouserl_home {
+  width: 80%;
+}
+.img_home {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.des-cont {
+  flex-basis: 50%;
+}

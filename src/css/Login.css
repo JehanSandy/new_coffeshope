@@ -1,0 +1,71 @@
+.cont-login {
+  height: 100vh;
+  background-image: url("../../public/assets/LoginBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-login {
+  width: 30vw;
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(3px);
+}
+.cart-login h1 span {
+  color: rgb(202, 132, 40);
+}
+
+.cont-button-login button {
+  background-color: transparent;
+  color: rgb(202, 132, 40);
+  border: 2px solid rgb(202, 132, 40);
+  padding-block: 0.3rem;
+  padding-inline: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.cont-button-login button:hover {
+  background-color: rgb(202, 132, 40);
+  color: aliceblue;
+}
+.cont-button-login a {
+  color: rgb(202, 132, 40);
+  text-decoration: none;
+  font-weight: 700;
+}
+.cont-button-login a:hover {
+  color: rgb(78, 63, 44);
+}
+
+/* 
+----------------------
+CSS for Register page
+----------------------
+*/
+.cont-Register {
+  height: 130vh;
+  background-image: url("../../public/assets/RegisterBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-register {
+  width: 38vw;
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(3px);
+}
+.cart-register h1 {
+  font-size: 2rem;
+}
+.cart-register h1 span {
+  color: rgb(202, 132, 40);
+}
